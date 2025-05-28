@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="static/img/favicon.png" type="image/png">
+  <title>Mujthaba's Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="static/css/bootstrap.css">
+  <link rel="stylesheet" href="static/vendors/linericon/style.css">
+  <link rel="stylesheet" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/css/magnific-popup.css">
+  <link rel="stylesheet" href="static/vendors/nice-select/css/nice-select.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+  <!--================ Start Header Area =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="static/img/MUJTHABA.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================ End Header Area =================-->
+
+  <!--================ Main Content Area =================-->
+  <main>
+<!--================Contact Area =================-->
+<section class="contact_area section_gap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="contact_info">
+          <div class="info_item">
+            <i class="lnr lnr-home"></i>
+            <h6>India, Kerala State</h6>
+            <p>Malappuram District</p>
+          </div>
+          <div class="info_item">
+            <i class="lnr lnr-phone-handset"></i>
+            <h6><a href="#">+91 70259 62175</a></h6>
+            <p>Mon to Fri 9am to 6 pm</p>
+          </div>
+          <div class="info_item">
+            <i class="lnr lnr-envelope"></i>
+            <h6><a href="#">mujthabamk2@gmail.com</a></h6>
+            <p>Send us your query anytime!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+            </div>
+          </div>
+          <div class="col-md-12 text-right">
+            <button type="submit" value="submit" class="primary_btn">
+              <span>Send Message</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Google Map Placeholder -->
+    <div id="mapBox" class="mapBox" 
+         data-lat="40.701083" 
+         data-lon="-74.1522848" 
+         data-zoom="13" 
+         data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+         data-mlat="40.701083"
+         data-mlon="-74.1522848">
+    </div>
+  </div>
+</section>
+<!--================Contact Area =================-->
+
+ </main>
+  <!--================ End Main Content Area =================-->
+
+  <!--================ Footer Area =================-->
+  <footer class="footer_area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="footer_top flex-column">
+            <div class="footer_logo">
+              <a href="#"><img src="static/img/MUJTHABA.png" alt=""></a>
+              <h4>Follow Me</h4>
+            </div>
+            <div class="footer_social">
+              <a href="https://github.com/yourusername" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="https://wa.me/yourphonenumber" target="_blank"><i class="fa fa-whatsapp"></i></a>
+              <a href="mailto:your.email@example.com"><i class="fa fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer_bottom justify-content-center">
+        <p class="col-lg-8 col-sm-12 footer-text">
+          &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Portfolio Website is made by Myself <i class="fa fa-heart-o" aria-hidden="true"></i>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!--================ End Footer Area =================-->
+
+  <!--================ JS Scripts =================-->
+  <script src="static/js/jquery-3.2.1.min.js"></script>
+  <script src="static/js/popper.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/stellar.js"></script>
+  <script src="static/js/jquery.magnific-popup.min.js"></script>
+  <script src="static/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+  <script src="static/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+  <script src="static/vendors/isotope/isotope-min.js"></script>
+  <script src="static/vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="static/js/jquery.ajaxchimp.min.js"></script>
+  <script src="static/js/mail-script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <script src="static/js/gmaps.min.js"></script>
+  <script src="static/js/theme.js"></script>
+</body>
+
+</html>
